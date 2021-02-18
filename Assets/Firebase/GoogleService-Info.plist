@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>2410950759-htre0ls8efe8svcnhammfgdt8muk78dn.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.2410950759-htre0ls8efe8svcnhammfgdt8muk78dn</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>2410950759-gctmd7r8dahvpcjkgi2gbob65m3v5d0m.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAiVALhYoHaLaaepv-MlyOsmp2jsYzATIA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>2410950759</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.EXCELR8.ActiveParents</string>
+	<key>PROJECT_ID</key>
+	<string>active-parents</string>
+	<key>STORAGE_BUCKET</key>
+	<string>active-parents.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:2410950759:ios:e9b5287c87ea7035bba4c2</string>
+	<key>DATABASE_URL</key>
+	<string>https://active-parents-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

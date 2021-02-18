@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "2410950759",
+    "firebase_url": "https://active-parents-default-rtdb.firebaseio.com",
+    "project_id": "active-parents",
+    "storage_bucket": "active-parents.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2410950759:android:820a771b2c150b3ebba4c2",
+        "android_client_info": {
+          "package_name": "com.Excel08.ActiveParentsApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "2410950759-mrd32rqnca9banmvnavch000v9u2thtf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRCncxJOvw6TgvT9ADv58Xxg6HXrhnVao"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "2410950759-mrd32rqnca9banmvnavch000v9u2thtf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "2410950759-htre0ls8efe8svcnhammfgdt8muk78dn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.EXCELR8.ActiveParents"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

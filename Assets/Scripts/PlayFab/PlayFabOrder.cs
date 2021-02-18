@@ -12,6 +12,7 @@ public class PlayFabOrder : MonoBehaviour
     public static PlayFabOrder instance;
     public PlayFabRegister playFabRegister;
     public ScheduleManager scheduleManager;
+    public PushFirebase pushFirebase;
     public LeaderBoard leaderBoard;
     public Button buttonPlay;
     public Button buttonCovid;
@@ -35,6 +36,8 @@ public class PlayFabOrder : MonoBehaviour
     public bool isRegister;
     public bool isNameUpdate;
     public Action updateName;
+    public Action loadFirebase;
+    public bool isFirebaseLoad;
    
 
 
@@ -146,11 +149,22 @@ public class PlayFabOrder : MonoBehaviour
             }
             yield return null;
         }
+        while (!isFirebaseLoad)
+        {
+            if (loadFirebase == null)
+            {
+                loadFirebase = pushFirebase.SetFirebase;
+                loadFirebase.Invoke();
+                ActiveButtons();
+            }
+            yield return null;
+        }
+
 
 
     }
 
-   public void ActiveButtons()
+    public void ActiveButtons()
     {
         buttonCovid.interactable = true;
     }
